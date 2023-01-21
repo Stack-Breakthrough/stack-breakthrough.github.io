@@ -27,15 +27,18 @@ p
 
 a
   color: $link-color
-  text-decoration: inherit
+  text-decoration: inherit 
   &:hover
-    text-decoration: underline
+    text-decoration: none 
 
 header a, footer a, aside a
   color: inherit
 
-header time
-  color: reduce(100)
+header .meta
+  color: $link-color
+
+header .meta time
+  color: teal 
 
 hr
   border: 1px solid reduce(30)
@@ -81,8 +84,9 @@ tr:hover, tr:nth-child(odd) td
 
 pre
   background: reduce(12)
-  border-radius: 2px
-  font-size: .8em
+  border-radius: 0.3rem
+  font-family: 'Monaco, Consolas, Menlo', monospace
+  font-size: .9rem
   margin: 1.5em 0
   padding: .8em 1.2em
   overflow-x: auto
@@ -91,6 +95,6 @@ pre
   font-size: .9em
   background: reduce(15)
   opacity: .7
-  border-radius: 2px
+  border-radius: 0.3rem
   margin: 0 .1em
   padding: .2em .4em

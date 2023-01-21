@@ -2,6 +2,10 @@
 
 For everyone's coding journey working on the various projects. 
 
+1. [blog-1](https://stack-breakthrough.github.io) default <br/>
+2. [blog-2](https://stack-break.onrender.com) up during maintenance ( manually deployed )
+
+
 ## Adding your posts
 
 1. Run the `new-blog.sh` or `new-blog.sh "post title"` to get create a blog post

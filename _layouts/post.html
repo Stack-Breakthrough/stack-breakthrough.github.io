@@ -1,10 +1,9 @@
 ---
 layout: default
-author: 'Levis Agaba' 
 ---
 
 <article>
-  {% include meta.html post=page %}
+  {% include meta.html post=page author=page.author %}
   {{ content }}
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
